@@ -5,6 +5,11 @@
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Mediatr" Version="12.4.1" />
+    <PackageReference Include="Mediatr.extensions.microsoft.dependencyinjection" Version="11.1.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
