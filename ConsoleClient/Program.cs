@@ -15,6 +15,6 @@ internal class Program
             var pingQuery = new Application.UseCases.PingPong.PingQuery();
             var result = mediator.Send(pingQuery).Result;
 
-            Console.WriteLine(result.Message);  
+            Console.WriteLine(result.Message);
     }
 }
